@@ -15,7 +15,7 @@ app.use(express.json());
 connectDB();
 
 // Use routes
-app.use('/api', userRoutes);  // User Routes
+app.use('/api/users', userRoutes);  // User Routes
 app.use('/api', practicalRoutes);  // Practical Routes
 
 // Sample route
